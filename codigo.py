@@ -13,7 +13,7 @@ def formu():
             print("Por favor, introduce un número entero válido para la edad.")
 
     while True:
-        fecha = input("Fecha de nacimiento (dia/mes/año): ")
+        fecha = input("Fecha de nacimiento (día/mes/año): ")
         try:
             dia, mes, anio = map(int, fecha.split('/'))
             
@@ -32,11 +32,11 @@ def formu():
     
 
     print("Gracias por completar el formulario.")
-    print("Tu solicitud sera revisada pronto.")
+    print("Tu solicitud será revisada pronto.")
 
-deporte = "Horarios: 16:00hs - 18:00hs\nLugar: Sum deportivo\nDescripcion: Se hara vistazo a distintas disiplinas fisicas en deportes variados"
-lectura = "Horarios: 17:00hs - 19:00hs\nLugar: Biblioteca\nDescripcion: Exploraremos varias obras literarias de generos variados (fantasia, ciencia ficcion, realismo, etc.)"
-ciencia = "Horarios: 11:00hs - 12:30hs\nLugar: Laboratorio\nDescripcion: Experimentaremos y haremos fenomenos quimicos."
+deporte = "Horarios: 16:00 hs - 18:00 hs\nLugar: Sum deportivo\nDescripcion: Se hará hará  vistazo a distintas disciplinas físicas  en deportes variados"
+lectura = "Horarios: 17:00 hs - 19:00 hs\nLugar: Biblioteca\nDescripcion: Exploraremos varias obras literarias de géneros variados (fantasia, ciencia ficcion, realismo, etc.)"
+ciencia = "Horarios: 11:00 hs - 12:30 hs\nLugar: Laboratorio\nDescripcion: Experimentaremos y haremos fenómenos químicos."
 
 print("---Bienvenido al formulario para inscribirte a los clubs---")
 print(f"Los clubes disponibles son:\n- deporte\n- lectura\n- ciencia")
