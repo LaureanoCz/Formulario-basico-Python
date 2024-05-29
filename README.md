@@ -1,5 +1,5 @@
 # Formulario de inscripsion - v.1.1
-### descripción
+### Descripción
 Forma sencilla de un formulario de inscripción con múltiples implementaciones.
 
 ### Integrantes
