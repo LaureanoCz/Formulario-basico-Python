@@ -1,17 +1,55 @@
-deporte =
-lectura =
-calculo =
-ciencia =
 
-print("---Bienvenido al formulario para inscribirte a los clubs---\n")
-print("Los clubes disponibles son:")
+def formu():
+    nombre = input("Escribe tu nombre y apellido: ")
+    
+    while True:
+        try:
+            edad = int(input("Edad: "))
+            if edad < 0:
+                print("La edad debe ser un número entero positivo.")
+                continue
+            break
+        except ValueError:
+            print("Por favor, introduce un número entero válido para la edad.")
 
+    while True:
+        fecha = input("Fecha de nacimiento (dia/mes/año): ")
+        try:
+            dia, mes, anio = map(int, fecha.split('/'))
+            
+            import datetime
+            datetime.datetime(anio, mes, dia)
+            break
+        except ValueError:
+            print("La fecha debe tener el formato día/mes/año. Por ejemplo: 01/01/2000.")
 
+    while True:
+        email = input("Email: ")
+        if '@' not in email:
+            print("El email debe contener el símbolo '@'.")
+        else:
+            break
+    
 
-nombreA = input("Escribe tu nombre y apellido: ")
-edad = int(input("edad: "))
-fecha = (input("fecha de nacimiento (dia/mes/año): "))
-email = input("Email: ")
+    print("Gracias por completar el formulario.")
+    print("Tu solicitud sera revisada pronto.")
 
-usuario = [nombreA, edad, fecha, email]
+deporte = "Horarios: 16:00hs - 18:00hs\nLugar: Sum deportivo\nDescripcion: Se hara vistazo a distintas disiplinas fisicas en deportes variados"
+lectura = "Horarios: 17:00hs - 19:00hs\nLugar: Biblioteca\nDescripcion: Exploraremos varias obras literarias de generos variados (fantasia, ciencia ficcion, realismo, etc.)"
+ciencia = "Horarios: 11:00hs - 12:30hs\nLugar: Laboratorio\nDescripcion: Experimentaremos y haremos fenomenos quimicos."
 
+print("---Bienvenido al formulario para inscribirte a los clubs---")
+print(f"Los clubes disponibles son:\n- deporte\n- lectura\n- ciencia")
+opciona = input("Elige tu club favorito: ").lower()
+if opciona == "deporte":
+    print("-=-=Deporte=-=-")
+    print(deporte)
+    formu()
+elif opciona == "lectura":
+    print("-=-=Lectura=-=-")
+    print(lectura)
+    formu()
+elif opciona == "ciencia":
+    print("-=-=Ciencia=-=-")
+    print(ciencia)
+    formu()
