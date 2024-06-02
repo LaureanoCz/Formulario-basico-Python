@@ -9,6 +9,5 @@ Forma sencilla de un formulario de inscripción con múltiples implementaciones.
 ### Características
 - Posibilidad de inscribirse en un club.
 - Creacion de formulario.
-- Te da la bienvenida al club .
-- Que te dice los integrantes del club.
-- Te indica cuales son las metas del club.
+- Muestra la informacion importante del club seleccionado.
+- Te da la bienvenida al club.
