@@ -1,0 +1,16 @@
+---Bienvenido al formulario para inscribirte a los clubs---
+Los clubes disponibles son:
+- deporte
+- lectura
+- ciencia
+Elige tu club favorito: deporte
+-=-=Deporte=-=-
+Horarios: 16:00 hs - 18:00 hs
+Lugar: Sum deportivo
+Descripcion: Se hará hará  vistazo a distintas disciplinas físicas  en deportes variados
+Escribe tu nombre y apellido: Laureano Carranza
+Edad: 16
+Fecha de nacimiento (día/mes/año): 25/07/2007
+Email: lcarranza@escuelasproa.edu.ar
+Gracias por completar el formulario.
+Tu solicitud será revisada pronto.
