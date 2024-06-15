@@ -1,6 +1,6 @@
-# Formulario de inscripsion - v.1.1
+# Formulario de inscripsion - v.2.1
 ### Descripción
-Forma sencilla de un formulario de inscripción con múltiples implementaciones.
+Formulario sencillo de inscripciónes a clubes con Python.
 
 ### Integrantes
 - Laureano Daniel Carranza - lcarranza@escuelasproa.edu.ar - https://github.com/LaureanoCz
@@ -8,6 +8,6 @@ Forma sencilla de un formulario de inscripción con múltiples implementaciones.
 
 ### Características
 - Posibilidad de inscribirse en un club.
-- Creacion de formulario.
-- Muestra la informacion importante del club seleccionado.
-- Te da la bienvenida al club.
+- Muestra la información importante del club seleccionado.
+- Creación de formulario con validación de datos.
+- Usa archivos separados para organizar el código.
