@@ -33,23 +33,3 @@ def formu():
 
     print("Gracias por completar el formulario.")
     print("Tu solicitud será revisada pronto.")
-
-deporte = "Horarios: 16:00 hs - 18:00 hs\nLugar: Sum deportivo\nDescripcion: Se hará hará  vistazo a distintas disciplinas físicas  en deportes variados"
-lectura = "Horarios: 17:00 hs - 19:00 hs\nLugar: Biblioteca\nDescripcion: Exploraremos varias obras literarias de géneros variados (fantasia, ciencia ficcion, realismo, etc.)"
-ciencia = "Horarios: 11:00 hs - 12:30 hs\nLugar: Laboratorio\nDescripcion: Experimentaremos y haremos fenómenos químicos."
-
-print("---Bienvenido al formulario para inscribirte a los clubs---")
-print(f"Los clubes disponibles son:\n- deporte\n- lectura\n- ciencia")
-opciona = input("Elige tu club favorito: ").lower()
-if opciona == "deporte":
-    print("-=-=Deporte=-=-")
-    print(deporte)
-    formu()
-elif opciona == "lectura":
-    print("-=-=Lectura=-=-")
-    print(lectura)
-    formu()
-elif opciona == "ciencia":
-    print("-=-=Ciencia=-=-")
-    print(ciencia)
-    formu()
