@@ -5,19 +5,19 @@ print("     ---Bienvenido---")
 print("Los clubes disponibles son:\n- Deporte\n- Ciencia\n- Lectura")
 
 while True:
-    opciona = input("Elige tu club favorito: ").lower()
-    if "deporte" in opciona:
-        print("-=-=Deporte=-=-")
+    opcion = input("Elige tu club favorito: ").lower()
+    if "deporte" in opcion:
+        print("-=-= Deporte =-=-")
         print(clubes.deporte)
         formulario.formu()
         break
-    elif "lectura" in opciona:
-        print("-=-=Lectura=-=-")
+    elif "lectura" in opcion:
+        print("-=-= Lectura =-=-")
         print(clubes.lectura)
         formulario.formu()
         break
-    elif "ciencia" in opciona:
-        print("-=-=Ciencia=-=-")
+    elif "ciencia" in opcion:
+        print("-=-= Ciencia =-=-")
         print(clubes.ciencia)
         formulario.formu()
         break

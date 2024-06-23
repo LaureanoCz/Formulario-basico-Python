@@ -1,4 +1,3 @@
-
 def formu():
     nombre = input("Escribe tu nombre y apellido: ")
     
@@ -24,12 +23,11 @@ def formu():
             print("La fecha debe tener el formato día/mes/año. Por ejemplo: 01/01/2000.")
 
     while True:
-        email = input("Email: ")
+        email = input("Correo electrónico: ")
         if '@' not in email:
-            print("El email debe contener el símbolo '@'.")
+            print("El correo electrónico debe contener el símbolo '@'.")
         else:
             break
     
-
     print("Gracias por completar el formulario.")
     print("Tu solicitud será revisada pronto.")
