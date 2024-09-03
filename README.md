@@ -1,4 +1,4 @@
-# Formulario de Inscripción - v2.2
+# Formulario de Inscripción - v2.4
 
 ### Descripción
 
