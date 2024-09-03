@@ -1,3 +1,5 @@
+#Archivo que contiene el codigo del formulario que se completa al momento de elegir el club seleccionado
+
 def formu():
     nombre = input("Escribe tu nombre y apellido: ")
     

@@ -1,3 +1,5 @@
+#Archivo principal del proyecto. Menu principal del programa, recolecta informacion y funciones de los demas archivos para poder ejecutar el programa de forma correcta
+
 import formulario
 import clubes
 
