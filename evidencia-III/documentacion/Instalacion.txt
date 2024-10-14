@@ -1,0 +1,13 @@
+1. Instalación
+Paso 1: Asegúrate de tener Python instalado en tu computadora. Puedes descargarlo desde python.org.
+Paso 2: Descarga los archivos (index.py, formulario.py, clubes.py) y colócalos en una misma carpeta.
+Paso 3: Abre una terminal o consola en la ubicación donde guardaste los archivos.
+2. Ejecución
+Paso 1: En la terminal, escribe el siguiente comando para ejecutar:
+bash
+Copiar código
+python index.py
+Paso 2: Aparecerá un menú con los clubes disponibles (Deporte, Ciencia, Lectura).
+Paso 3: Escribe el nombre del club que prefieras.
+Paso 4: Completa el formulario con tu información personal (nombre, edad, fecha de nacimiento y correo electrónico).
+Paso 5: Al finalizar, recibirás una confirmación y el proceso terminará.

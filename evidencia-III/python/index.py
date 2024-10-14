@@ -1,27 +1,13 @@
-#Archivo principal del proyecto. Menu principal del programa, recolecta informacion y funciones de los demas archivos para poder ejecutar el programa de forma correcta
+#Archivo principal del programa. Presenta un menú para elegir un club y llama al formulario para completar la inscripción.
 
+import opcion1
+import opcion2
+import opcion3
 import formulario
 import clubes
 
-print("     ---Bienvenido---")
-print("Los clubes disponibles son:\n- Deporte\n- Ciencia\n- Lectura")
 
-while True:
-    opcion = input("Elige tu club favorito: ").lower()
-    if "deporte" in opcion:
-        print("-=-= Deporte =-=-")
-        print(clubes.deporte)
-        formulario.formu()
-        break
-    elif "lectura" in opcion:
-        print("-=-= Lectura =-=-")
-        print(clubes.lectura)
-        formulario.formu()
-        break
-    elif "ciencia" in opcion:
-        print("-=-= Ciencia =-=-")
-        print(clubes.ciencia)
-        formulario.formu()
-        break
-    else:
-        print("Escoge una opción válida.")
+
+print("     ---Bienvenido---")
+print("1- Iniciar sesion \n2- Crear una cuenta\n")
+opcion_1 = int(input("Selecciona una opcion (1 - 2): "))

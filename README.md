@@ -1,12 +1,7 @@
-# Formulario de Inscripción - v2.4
+<h1 aling="center">Formulario de Inscripción - v2.5</h1>
+<p aling="center">Formulario simple de inscripción a clubes usando Python.</p>
 
-### Descripción
-
-Formulario simple de inscripción a clubes usando Python.
-
-
-### Integrantes
-
+### Integrantes:
 - **Laureano Daniel Carranza**
   - Email: lcarranza@escuelasproa.edu.ar
   - GitHub: [LaureanoCz](https://github.com/LaureanoCz)

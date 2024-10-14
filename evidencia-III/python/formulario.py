@@ -1,4 +1,4 @@
-#Archivo que contiene el codigo del formulario que se completa al momento de elegir el club seleccionado
+#Recoge y valida la información del usuario (nombre, edad, fecha de nacimiento y correo) tras elegir un club.
 
 def formu():
     nombre = input("Escribe tu nombre y apellido: ")
